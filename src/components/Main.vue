@@ -20,6 +20,7 @@ main{
     padding: 40px 0;
     color: $coloreQuarto;
     background: $coloreTerzo;
+    
 }
 
 </style>

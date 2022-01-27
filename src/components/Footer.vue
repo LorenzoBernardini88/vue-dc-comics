@@ -55,6 +55,27 @@
                         </ul>
                     </div>
                 </div>
+                <div class="logo-big">
+                    <img src="../assets/img/dc-logo-bg.png" alt="">
+
+                </div>
+                
+            </div>
+        </div>
+        <div class="bottom_footer">
+            <div class="container">
+                <a class="button" href="#">SIGN-UP NOW!</a>
+                <div class="social_content">
+                    <ul>
+                        <li>FOLLOW US</li>
+                        <li><a><img src="../assets/img/footer-facebook.png" alt=""></a></li>
+                        <li><a><img src="../assets/img/footer-twitter.png" alt=""></a></li>
+                        <li><a><img src="../assets/img/footer-youtube.png" alt=""></a></li>
+                        <li><a><img src="../assets/img/footer-pinterest.png" alt=""></a></li>
+                        <li><a><img src="../assets/img/footer-facebook.png" alt=""></a></li>
+                    </ul>
+
+                </div>
             </div>
         </div>
     </footer>
@@ -106,11 +127,14 @@ export default {
 <style scoped lang="scss">
     @import '../assets/style/partial/variables.scss';
     footer{
-        
+        background-image: url('../assets/img/footer-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
         .top_footer{
             padding: 20px 0;
             color: $coloreQuarto;
             background: $colorePrimo;
+            
 
             .container{
                 display: flex;
@@ -126,42 +150,87 @@ export default {
                     gap: 5px;
                     
                     img{
-                        width: 20%;
+                        height: 50px;
                     }
                 }
             }
         }
         .middle_footer{
-            padding: 25px 0;
-            background-image: url('../assets/img/footer-bg.jpg');
-            background-repeat: no-repeat;
+            overflow-y: hidden;
+            // padding: 25px 0;
+            
 
-            .content_middle{
-                width: 35%;
+            .container{
                 display: flex;
-                flex-wrap: wrap;
-                gap: 40px;
-                .list .list_title{
-                    color: $coloreQuarto;
-                    font-size: 16px;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    margin-bottom:8px ;
-                    margin-top:10px
-                }
-                .list ul li {
-                    list-style-type:none;
-                    line-height: 18px;
-                    a{
-                        color:#797979;
-                        font-size: 12px;
+                justify-content: space-between;
+            }
+            .container img{
+                margin: -70px 0px;
+            }
+                .content_middle{
+                    width: 35%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top:20px;
+                    gap: 40px;
+                    .list .list_title{
+                        color: $coloreQuarto;
+                        font-size: 16px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        margin-bottom:8px ;
+                        margin-top:10px
+                    }
+                    .list ul li {
+                        list-style-type:none;
+                        line-height: 18px;
+                        a{
+                            color:#797979;
+                            font-size: 12px;
+                            text-decoration: none;
+                            
+                        }
+                    }
+                }   
+            }
+            .bottom_footer{
+                padding: 15px 0px;
+                background:#303030;
+
+                .container{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .button{
                         text-decoration: none;
+                        font-size: 15px;
+                        padding: 5px 20px 2px 20px;
+                        color: $coloreQuarto;
+                        border: solid 2px $colorePrimo;
+                    }
+                    .social_content ul{
+                        font-size: 15px;
+                        display: flex;
+                        align-items: center;
+                        gap:15px;
+                        color:$colorePrimo;
+                        list-style-type:none;
+                        
+                            a{
+                                text-decoration: none;
+                                img{
+                                    width:30px;
+                                    
+                                }
+                            }
                         
                     }
                 }
-            }   
-        }
+            }
     }
+            
+                
+
 
                     
 
