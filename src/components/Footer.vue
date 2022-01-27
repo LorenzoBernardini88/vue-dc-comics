@@ -199,17 +199,19 @@ export default {
 
                 .container{
                     display: flex;
+                    align-items: center;
                     justify-content: space-between;
 
                     .button{
                         text-decoration: none;
-                        font-size: 15px;
-                        padding: 5px 20px 2px 20px;
+                        font-size: 12px;
+                        padding: 10px;
                         color: $coloreQuarto;
                         border: solid 2px $colorePrimo;
                     }
                     .social_content ul{
-                        font-size: 15px;
+                        font-size: 12px;
+                        font-weight: bold;
                         display: flex;
                         align-items: center;
                         gap:15px;
