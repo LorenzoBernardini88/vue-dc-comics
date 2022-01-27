@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header msg="Welcome to Your Vue.js App"/>
-    <Main msg="Welcome to Your Vue.js App"/>
-    <Footer msg="Welcome to Your Vue.js App"/>
+    <Header />
+    <Main />
+    <Footer />
   </div>
 </template>
 
@@ -18,12 +18,12 @@ export default {
   components: {
     Header,
     Main,
-    Footer,
+    Footer
   }
 }
 </script>
 
 <style lang="scss">
-@import url('../src/assets/style/global.scss')
+@import url('./assets/style/global.scss')
 
 </style>
