@@ -3,7 +3,7 @@
     <div class="container">
       <img src="../assets/img/dc-logo.png" alt="">
       <ul>
-        <li v-for="(elemento,indice) in links" :key='indice'><a href="#">{{elemento.text}}</a></li>
+        <li v-for="(elemento,indice) in links" :key='indice'><a :class="{active: elemento.current}" href="#">{{elemento.text}}</a></li>
       </ul>
     </div>
   </header>
@@ -18,7 +18,7 @@ export default {
         {
           text: "Carachters",
           url: "#",
-          current: false,
+          current: true,
         },
         {
           text: "Comics",
@@ -84,19 +84,28 @@ header{
     align-items: center;
   }
   img{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
   }
   ul{
       display:flex;
       gap: 20px;
+      font-size: 18px;
 
       li{
       list-style-type:none;
       
           a{
+            padding: 45px 0;
             color: $coloreTerzo;
             text-decoration: none;
+
+            &:hover{
+              color: $colorePrimo;
+            }
+            &.active{
+              border-bottom: solid 4px $colorePrimo;
+            }
           }
       }
     }

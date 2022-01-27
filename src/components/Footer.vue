@@ -131,7 +131,7 @@ export default {
         background-size: cover;
         background-repeat: no-repeat;
         .top_footer{
-            padding: 20px 0;
+            padding: 30px 0;
             color: $coloreQuarto;
             background: $colorePrimo;
             
@@ -150,7 +150,7 @@ export default {
                     gap: 5px;
                     
                     img{
-                        height: 50px;
+                        height: 30px;
                     }
                 }
             }
