@@ -76,8 +76,7 @@ export default {
 @import '../assets/style/partial/variables.scss';
 
 header{
-  width: 100%;
-  padding: 20px;
+  padding: 20px 0;
 
   .container {
     display: flex;
