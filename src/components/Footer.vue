@@ -22,6 +22,11 @@
                             <li><a href="#">Videos</a></li>
                             <li><a href="#">News</a></li>
                         </ul>
+                        <div class="list_title">shop</div>
+                        <ul>
+                            <li><a href="#">Shop DC</a></li>
+                            <li><a href="#">Shop DC Collectibles</a></li>
+                        </ul>
                     </div>
                     <div class="list">
                         <div class="list_title">dc</div>
@@ -49,18 +54,14 @@
                             <li><a href="#">DC Power Visa</a></li>
                         </ul>
                     </div>
-                    <div class="list">
-                        <div class="list_title">shop</div>
-                        <ul>
-                            <li><a href="#">Shop DC</a></li>
-                            <li><a href="#">Shop DC Collectibles</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
     </footer>
 </template>
+                    
+                        
+                    
 
 
 
@@ -146,11 +147,11 @@ export default {
                     font-weight: bold;
                     text-transform: uppercase;
                     margin-bottom:8px ;
-
+                    margin-top:10px
                 }
                 .list ul li {
                     list-style-type:none;
-                    line-height: 20px;
+                    line-height: 18px;
                     a{
                         color:#797979;
                         font-size: 12px;
@@ -161,5 +162,8 @@ export default {
             }   
         }
     }
+
+                    
+
 
 </style>
