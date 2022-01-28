@@ -21,9 +21,11 @@ export default {
 
 <style lang="scss" scoped>
     .comicContainer{
-            width: 250px;
+            width: 155px;
+            
             img{
                 width: 100%;
+                object-fit:inherit;
             }
         }
             
