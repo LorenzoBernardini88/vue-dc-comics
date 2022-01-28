@@ -110,6 +110,15 @@ import comic from '../commons/comic.vue';
         background: black ;
         padding:20px 0;
     }
+    .container{
+        color: $coloreQuarto;
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:10px;
+    }
+            
 
     
 
