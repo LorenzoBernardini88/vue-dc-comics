@@ -2,10 +2,12 @@
     <div class="MainContent">
         <div class="jumbo"></div>
         <div class="comics_content">
+        <span>current series</span>
             <div class="container">
                 <comic v-for="(element,indice) in comics" :key="indice"
                 :elemento="element"/>
             </div>
+            <a href="#">load more</a>
         </div>
     </div>
 </template>
@@ -101,14 +103,37 @@ import comic from '../commons/comic.vue';
 
 <style lang="scss" scoped>
 @import '../../assets/style/partial/variables.scss';
+    
     .jumbo{
         height: 300px;
         background-image: url('../../assets/img/jumbotron.jpg');
         background-position: contain;
         background-size: cover;
     }.comics_content{
+        text-align: center;
         background: black ;
-        padding:20px 0;
+        padding:40px 0 20px 0;
+        position: relative;
+        span{
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $coloreQuarto;
+        background: $colorePrimo;
+        padding: 10px;
+        position: absolute;
+        top: -20px;
+        left: 50px;
+        }
+        a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight:bold;
+        font-size: 12px;
+        color: $coloreQuarto;
+        background: $colorePrimo;
+        padding: 5px 40px;
+    }
     }
     .container{
         color: $coloreQuarto;
@@ -117,6 +142,7 @@ import comic from '../commons/comic.vue';
         flex-wrap: wrap;
         justify-content: space-between;
         gap:10px;
+        padding-bottom:30px;
     }
             
 
