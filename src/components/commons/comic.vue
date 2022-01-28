@@ -22,7 +22,7 @@ export default {
 <style lang="scss" scoped>
     .comicContainer{
             width: 160px;
-            
+            text-align: left;
             img{
                 width: 100%;
                 height: 160px;
