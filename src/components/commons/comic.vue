@@ -20,7 +20,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    .comicContainer{
+            width: 250px;
+            img{
+                width: 100%;
+            }
+        }
+            
 
 
 </style>
