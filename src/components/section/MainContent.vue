@@ -1,7 +1,6 @@
 <template>
     <div class="MainContent">
         <div class="jumbo">
-            <img src="../../assets/img/jumbotron.jpg" alt="">
         </div>
     </div>
 </template>
@@ -14,6 +13,15 @@
 
 <style lang="scss" scoped>
 @import '../../assets/style/partial/variables.scss';
-
+.MainContent{
+    height: 300px;
+    .jumbo{
+        height: 100%;
+        background-image: url('../../assets/img/jumbotron.jpg');
+        background-position: contain;
+        background-size: cover;
+    }
+    
+}
 
 </style>
