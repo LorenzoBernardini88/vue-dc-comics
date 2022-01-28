@@ -144,9 +144,9 @@ import comic from '../commons/comic.vue';
         gap:10px;
         padding-bottom:30px;
     }
-            
 
 </style>
-    
+
+
 
 
