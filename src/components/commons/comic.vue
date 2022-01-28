@@ -1,9 +1,9 @@
 <template>
     <div class="comicContainer">
         <div class="cover">
-            <img src="" alt="">
+            <img :src="elemento.thumb" >
         </div>
-        <span></span>
+        <span>{{elemento.series}}</span>
     </div>
 </template>
 
@@ -13,7 +13,9 @@
 
 export default {
     name: 'comic',
-    
+    props:{
+        elemento : Object,
+    }
 }
 </script>
 
