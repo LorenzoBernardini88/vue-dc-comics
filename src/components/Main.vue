@@ -1,14 +1,17 @@
 <template>
     <main>
-        <div class="container">
-            <div>--> Content goes here &#60;--</div>
-        </div>
+        <MainContent/>
     </main>
 </template>
 
 <script>
+import MainContent from './section/MainContent.vue'
+
 export default {
     name: 'Main',
+    components :{
+        MainContent,
+    }
 }
 </script>
 

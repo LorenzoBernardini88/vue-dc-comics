@@ -1,7 +1,7 @@
 <template>
     <div class="MainContent">
         <div class="jumbo">
-            <img src="" alt="">
+            <img src="../../assets/img/jumbotron.jpg" alt="">
         </div>
     </div>
 </template>
