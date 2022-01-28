@@ -76,7 +76,7 @@ export default {
 @import '../assets/style/partial/variables.scss';
 
 header{
-  padding: 20px 0;
+  padding: 10px 0;
 
   .container {
     display: flex;
@@ -96,7 +96,7 @@ header{
       list-style-type:none;
       
           a{
-            padding: 45px 0;
+            padding: 35px 0;
             color: $coloreTerzo;
             text-decoration: none;
 
@@ -110,5 +110,5 @@ header{
       }
     }
 }
-  
+
 </style>
