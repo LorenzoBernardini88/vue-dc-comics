@@ -165,6 +165,7 @@ export default {
                 justify-content: space-between;
             }
             .container img{
+                width: 85%;
                 margin: -70px 0px;
             }
                 .content_middle{
