@@ -133,7 +133,7 @@ import comic from '../commons/comic.vue';
         color: $coloreQuarto;
         background: $colorePrimo;
         padding: 5px 40px;
-    }
+        }
     }
     .container{
         color: $coloreQuarto;
@@ -146,8 +146,7 @@ import comic from '../commons/comic.vue';
     }
             
 
+</style>
     
 
 
-
-</style>
